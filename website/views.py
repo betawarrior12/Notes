@@ -34,4 +34,4 @@ def delete_note():
             db.session.delete(note)
             db.session.commit()
 
-    return jsonify({})current_user.id
+    return jsonify({})
